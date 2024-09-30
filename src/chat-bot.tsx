@@ -149,11 +149,11 @@ export default function ChatBot() {
         </svg>
       </Button>
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogContent className="scale-75 md:scale-100 sm:max-w-[400px] p-5 mt-10 overflow-hidden bg-black text-white z-[99999]">
+        <DialogContent className="scale-75 md:scale-100 sm:max-w-[400px] p-5  mt-1 bg-black text-white z-[99999]">
           <DialogHeader className="p-4 border-b border-white">
             <div className="flex items-center">
               <Avatar className="h-10 w-10 mr-3">
-                <AvatarImage src="/icon/avatar.png" />
+                <AvatarImage src="/yabes.PNG" />
                 <AvatarFallback className="bg-white text-black">RB</AvatarFallback>
               </Avatar>
               <div>
