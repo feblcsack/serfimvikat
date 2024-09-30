@@ -5,22 +5,26 @@ import CertificatePage from '@/pages/CertificatePage';
 import CertificateGenerate from '@/components/CertificateGenerate';
 import CertificatePreview from '@/pages/CertificatePreview';
 import Footer from './components/Footer';
+import ChatBot from './chat-bot';
 
 function App() {
   return (
-    <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <div className='flex items-end justify-end p-5'>
-        <ModeToggle />
-      </div>
-      <Router>
-        <Routes>
-          <Route path='/' element={<CertificatePage />} />
-          <Route path='/generate' element={<CertificateGenerate />} />
-          <Route path='/preview' element={<CertificatePreview />} />
-        </Routes>
-      </Router>
-      <Footer />
-    </ThemeProvider>
+    <>
+      <ChatBot />
+      <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
+        <div className='flex items-end justify-end p-5'>
+          <ModeToggle />
+        </div>
+        <Router>
+          <Routes>
+            <Route path='/' element={<CertificatePage />} />
+            <Route path='/generate' element={<CertificateGenerate />} />
+            <Route path='/preview' element={<CertificatePreview />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </ThemeProvider>
+    </>
   );
 }
 
