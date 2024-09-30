@@ -5,15 +5,15 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import certificateBackground from '../assets/sertif.png';
 
-const getFormattedDate = (): string => {
-  const now = new Date();
+// const getFormattedDate = (): string => {
+//   const now = new Date();
 
-  const day = now.getDate();
-  const month = now.toLocaleString('default', { month: 'long' });
-  const year = now.getFullYear();
+//   const day = now.getDate();
+//   const month = now.toLocaleString('default', { month: 'long' });
+//   const year = now.getFullYear();
 
-  return `${day} ${month} ${year}`;
-};
+//   return `${day} ${month} ${year}`;
+// };
 
 export default function CertificatePreview() {
   const location = useLocation();
