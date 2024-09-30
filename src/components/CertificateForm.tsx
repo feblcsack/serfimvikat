@@ -21,16 +21,16 @@ const CertificateForm: React.FC<CertificateFormProps> = ({ onSubmit }) => {
     <div className='flex justify-center items-center h-screen'>
       <Card className='w-[350px]'>
         <CardHeader>
-          <CardTitle>Sertifikat Kemalasan </CardTitle>
+          <CardTitle>Sertifikat jagoanomparkir </CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit}>
             <div className='grid w-full items-center gap-4'>
               <div className='flex flex-col space-y-1.5'>
-                <Label htmlFor='name'>Nama sipemalas</Label>
+                <Label htmlFor='name'>Nama lord</Label>
                 <Input
                   id='name'
-                  placeholder='Masukin nama ente'
+                  placeholder='Masukin nama '
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required

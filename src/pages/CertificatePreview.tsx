@@ -3,7 +3,7 @@ import jsPDF from 'jspdf';
 import { toPng } from 'html-to-image';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import certificateBackground from '../assets/sertimvikat.png';
+import certificateBackground from '../assets/sertif.png';
 
 const getFormattedDate = (): string => {
   const now = new Date();
@@ -52,15 +52,15 @@ export default function CertificatePreview() {
           backgroundPosition: 'center',
         }}
       >
-        <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12 text-[#24a5f4]'>
-          <h3 className='text-sm sm:text-md md:text-xl lg:text-2xl font-bold mb-12 sm:mb-16 md:mb-16 lg:mb-16'>
+        <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12 text-[#3e4f61]'>
+          <h3 className='text-sm sm:text-md md:text-xl lg:text-2xl font-bold mb-12 ml-5 sm:mb-16 md:mb-16 lg:mb-16'>
             {name || 'Nama Pemalas'}
           </h3>
         </div>
-        <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12  text-[#24a5f4]'>
-          <p className='text-[10px] sm:text-[10px] md:text-[10px] lg:text-[12px] font-bold mt-24 sm:mt-36 md:mt-36 lg:mt-36'>
+        <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12  text-[#3e4f61]'>
+          {/* <p className='text-[10px]  sm:text-[10px] md:text-[10px] lg:text-[12px] font-bold mt-24 sm:mt-36 md:mt-36 lg:mt-36'>
             {getFormattedDate()}
-          </p>
+          </p> */}
         </div>
       </div>
       <div className='flex justify-between'>
