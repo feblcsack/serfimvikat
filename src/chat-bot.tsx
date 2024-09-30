@@ -67,6 +67,9 @@ export default function ChatBot() {
     "sakha": [
       "@irtideath",
     ],
+    "david": [
+      "@davprtuz",
+    ],
   };
   
   const handleSend = () => {
