@@ -44,7 +44,7 @@ const Generalquestions = () => {
             silahkan kunjungi lagi nanti.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3" className="border-none">
+        <AccordionItem value="item-4" className="border-none">
           <AccordionTrigger className="text-lg text-start">
             Apa fungsi chatbot?
           </AccordionTrigger>
