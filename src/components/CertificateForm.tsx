@@ -18,7 +18,7 @@ const CertificateForm: React.FC<CertificateFormProps> = ({ onSubmit }) => {
   };
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex justify-center items-center h-[80vh]'>
       <Card className='w-[350px]'>
         <CardHeader>
           <CardTitle>Sertifikat jagoanomparkir </CardTitle>

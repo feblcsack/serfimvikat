@@ -1,6 +1,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import CertificateForm from '../components/CertificateForm';
+import Generalquestions from '@/components/Generalquestions';
 
 export default function CertificatePage() {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ export default function CertificatePage() {
   return (
     <div className=''>
       <CertificateForm onSubmit={handleFormSubmit} />
+      <Generalquestions />
     </div>
   );
 }
