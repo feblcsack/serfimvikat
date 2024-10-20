@@ -22,7 +22,7 @@ const Generalquestions = () => {
           </AccordionTrigger>
           <AccordionContent>
             Sertifikat Jagonomparkir adalah sebuah aplikasi pembuat sertifikat
-            otomatis secara online
+            otomatis secara online yang memungkinkan kamu untuk membuat sertifikat eksklusif layaknya member jagoan, tunggu apalagi?ayo buat!
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
