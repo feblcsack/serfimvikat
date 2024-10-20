@@ -7,8 +7,8 @@ import {
 
 const Generalquestions = () => {
   return (
-    <div className="w-full mx-auto max-w-2xl mb-16">
-      <h1 className="text-center mb-10 text-4xl font-semibold">
+    <div className="w-full mx-auto max-w-2xl mb-16 px-4 md:px-0">
+      <h1 className="text-center mb-10 font-semibold text-3xl md:text-4xl">
         Pertanyaan Umum
       </h1>
       <Accordion
@@ -17,7 +17,7 @@ const Generalquestions = () => {
         className="border-2 rounded-md px-5 pt-2 pb-3"
       >
         <AccordionItem value="item-1">
-          <AccordionTrigger className="text-lg">
+          <AccordionTrigger className="text-lg text-start">
             Apa itu Sertifikat Jagoanomparkir?
           </AccordionTrigger>
           <AccordionContent>
@@ -26,7 +26,7 @@ const Generalquestions = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger className="text-lg">
+          <AccordionTrigger className="text-lg text-start">
             Bagaimana cara menggunakan Sertifikat Jagoanomparkir?
           </AccordionTrigger>
           <AccordionContent>
@@ -35,7 +35,7 @@ const Generalquestions = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="border-none">
-          <AccordionTrigger className="text-lg">
+          <AccordionTrigger className="text-lg text-start">
             Apakah nanti ada update fitur terbaru?
           </AccordionTrigger>
           <AccordionContent>
