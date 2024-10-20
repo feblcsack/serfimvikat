@@ -78,7 +78,7 @@ export default function ChatBot() {
       const userMessage = input.toLowerCase();
       setInput("");
   
-      let botResponse = "Maaf, saya tidak mengerti pertanyaan Anda. Silakan coba lagi.";
+      let botResponse = "Duh ana ga paham, namanya harus sesuai jir";
       
       // Cari jawaban yang sesuai berdasarkan kata kunci
       if (userMessage.includes("yazid") || userMessage.includes("yazit")) {
