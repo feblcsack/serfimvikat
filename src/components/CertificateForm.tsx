@@ -27,7 +27,7 @@ const CertificateForm: React.FC<CertificateFormProps> = ({ onSubmit }) => {
           <form onSubmit={handleSubmit}>
             <div className='grid w-full items-center gap-4'>
               <div className='flex flex-col space-y-1.5'>
-                <Label htmlFor='name'>Nama lord</Label>
+                <Label htmlFor='name'>Nama lu</Label>
                 <Input
                   id='name'
                   placeholder='Masukin nama '
