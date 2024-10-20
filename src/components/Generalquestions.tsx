@@ -44,6 +44,15 @@ const Generalquestions = () => {
             silahkan kunjungi lagi nanti.
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem value="item-3" className="border-none">
+          <AccordionTrigger className="text-lg text-start">
+            Apa fungsi chatbot?
+          </AccordionTrigger>
+          <AccordionContent>
+            Chatbot ini menarik banget loh!<br/>
+            dengan cara ketik nama member jagoanom kamu sudah bisa mengetahui username ignya
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
     </div>
   );
