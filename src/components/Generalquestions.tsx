@@ -34,7 +34,7 @@ const Generalquestions = () => {
             dan otomatis akan terbuat
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3" className="border-none">
+        <AccordionItem value="item-3">
           <AccordionTrigger className="text-lg text-start">
             Apakah nanti ada update fitur terbaru?
           </AccordionTrigger>
